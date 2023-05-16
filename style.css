@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #F5EAD8;
+}
+
+/* figure */
+
+.figure {
+  position: absolute;
+
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+/* colors */
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+
+#f1 {
+  top: 345px;
+  width: 830px;
+  height: 50px;
+  /* display: none; */
+  left: 0%;
+  animation-name: f1;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes f1 {
+  0% {
+    left: -830px;
+  }
+  10% {
+    left: 210px;
+  }
+  to {
+    left: 210px;
+  }
+}
+
+#f2 {
+  top: 414px;
+  width: 864px;
+  height: 69px;
+  /* display: none; */
+  right: 0%;
+  animation-name: f2;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes f2 {
+  0% {
+    right: -864px;
+  }
+  10% {
+    right: 210px;
+  }
+  to {
+    right: 210px;
+  }
+}
+
+#f3 {
+  top: 0px;
+  left: 808px;
+  width: 37px;
+  height: 449px;
+  /* display: none; */
+  animation-name: f3;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes f3 {
+  from {
+    top: -449px;
+  }
+  10% {
+    top: -449px;
+  }
+  20% {
+    top: 160px;
+  }
+  to {
+    top: 160px;
+  }
+}
+
+#f4 {
+  top: 0px;
+  left: 865px;
+  width: 69px;
+  height: 485px;
+  /* display: none; */
+  animation-name: f4;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes f4 {
+  from {
+    top: -485px;
+  }
+  20% {
+    top: -485px;
+  }
+  30% {
+    top: 141px;
+  }
+  to {
+    top: 141px;
+  }
+}
+
+#f5 {
+  top: 0px;
+  left: 821px;
+  width: 88px;
+  height: 637px;
+  /* display: none; */
+  animation-name: f5;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes f5 {
+  from {
+    top: -637px;
+  }
+  30% {
+    top: -637px;
+  }
+  40% {
+    top: 75px;
+  }
+  to {
+    top: 75px;
+  }
+}
+
+#f6 {
+  bottom: 0px;
+  left: 486.13px;
+  width: 19px;
+  height: 412px;
+  /* display: none; */
+  animation-name: f6;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  transform: rotate(-4.22deg);
+}
+
+@keyframes f6 {
+  from {
+    bottom: -412px;
+  }
+  40% {
+    bottom: -412px;
+  }
+  50% {
+    bottom: 237.72px;
+  }
+  to {
+    bottom: 237.72px;
+  }
+}
+
+#f7 {
+  bottom: 0px;
+  left: 487.56px;
+  width: 16px;
+  height: 474px;
+  /* display: none; */
+  animation-name: f7;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  transform: rotate(-15.12deg);
+}
+
+@keyframes f7 {
+  from {
+    bottom: -474px;
+  }
+  50% {
+    bottom: -474px;
+  }
+  60% {
+    bottom: 151.46px;
+  }
+  to {
+    bottom: 151.46px;
+  }
+}
+
+#f8 {
+  top: 0px;
+  left: 959px;
+  width: 17px;
+  height: 304px;
+  /* display: none; */
+  animation-name: f8;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes f8 {
+  from {
+    top: -304px;
+  }
+  60% {
+    top: -304px;
+  }
+  70% {
+    top: 232px;
+  }
+  to {
+    top: 232px;
+  }
+}
+
+#f9 {
+  right: 0px;
+  top: 400px;
+  transform: translate(0, 0);
+  width: 102px;
+  height: 102px;
+  /* display: none; */
+  animation-name: f9;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes f9 {
+  from {
+    transform: translate(0, 0);
+    right: -102px;
+  }
+  70% {
+    transform: translate(0, 0);
+    right: -102px;
+  }
+  80% {
+    transform: translate(50%, -50%);
+    right: 750px;
+  }
+  to {
+    transform: translate(50%, -50%);
+    right: 750px;
+  }
+}
+
+#f10 {
+  width: 400px;
+  height: 400px;
+  right: 750px;
+  top: 400px;
+  /* display: none; */
+  animation-name: f10;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes f10 {
+  from {
+    transform: translate(50%, -50%) scale(0, 0) rotate(-90deg);
+  }
+  80% {
+    transform: translate(50%, -50%) scale(0, 0) rotate(-90deg);
+  }
+  90% {
+    transform: translate(50%, -50%) scale(1, 1) rotate(45deg);
+  }
+  to {
+    transform: translate(50%, -50%) scale(1, 1) rotate(45deg);
+  }
+}
+
+#f11 {
+  width: 102px;
+  height: 102px;
+  top: 400px;
+  right: 750px;
+  transform: translate(50%, -50%);
+  /* display: none; */
+  animation-name: f11;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes f11 {
+  from {
+    top: 400px;
+    right: 750px;
+    opacity: 0;
+  }
+  90% {
+    top: 400px;
+    right: 750px;
+    opacity: 0;
+  }
+  91% {
+    opacity: 1;
+  }
+  to {
+    top: 570px;
+    right: 950px;
+    opacity: 1;
+  }
+}
+
+
